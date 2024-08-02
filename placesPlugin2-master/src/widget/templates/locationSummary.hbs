@@ -1,0 +1,15 @@
+<div class="row-aligner">
+    <div class="close" id="close">&times</div><br>
+    <div class="col-image" style="padding-right: 0">
+        <div class="detail-image" style="background-image: url(https://czi3m2qn.cloudimg.io/s/width/180/{{image}})"></div>
+    </div>
+    <div class="col-title" style="padding-left: 10px">
+        <p class="name title">{{title}}</p>
+        <p class="name address" >{{address}}
+        {{#if categories.length}}<br/><span class="name tags">{{categories}}</span> {{/if}}
+        <br/><a class="view-more">{{viewMoreLinkText}}</a></p>
+    </div>
+    <div class="distance-indicator">
+        {{#if distance}}<img class="arrow" id="arrow" src="./images/arrow.png"> <span class="distance">{{distance}}</span>{{/if}}
+    </div>
+</div>

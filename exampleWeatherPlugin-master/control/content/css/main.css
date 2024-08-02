@@ -1,0 +1,87 @@
+.customTooltipBox {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.customTooltipBox::after {
+  content: 'i';
+  position: relative;
+  bottom: 4px;
+  display: block;
+}
+
+.customTooltipBox .customTooltipText {
+  visibility: hidden;
+  width: 300px;
+  background-color: #414547;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  transform: translate(10px, 50%);
+  left: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.customTooltipBox .customTooltipText::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  transform: rotate(90deg) translate(-50%);
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #414547 transparent transparent transparent;
+}
+
+.customTooltipBox:hover .customTooltipText {
+  visibility: visible;
+  opacity: 0.9;
+}
+.dropdown .chev {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 15px;
+    -webkit-pointer-events: none;
+    pointer-events: none;
+}
+
+.Toggler {
+  width: 30%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.Toggler__on, .Toggler__off {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.Toggler__on {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.Toggler__off {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

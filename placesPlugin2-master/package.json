@@ -1,0 +1,53 @@
+{
+  "name": "placesPlugin2",
+  "version": "1.0.0",
+  "description": "BuildFire plugin template for Webpack",
+  "main": "server.js",
+  "scripts": {
+    "test": "eslint .",
+    "build": "webpack --config ./webpack/build.config.js"
+  },
+  "keywords": [
+    "buildfire",
+    "plugin",
+    "webpack"
+  ],
+  "author": "BuildFire",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0",
+    "zip-webpack-plugin": "^2.0.0"
+  },
+  "dependencies": {
+    "comma-separated-values": "^3.6.4",
+    "csv-js": "^1.0.0",
+    "handlebars": "^4.0.11",
+    "lazyload": "^2.0.0-beta.2",
+    "lodash": "^4.17.11",
+    "navigo": "^5.3.3",
+    "quill-image-resize-module": "git://github.com/zxbin2000/quill-image-resize-module.git#v3.0.1",
+    "quill-render": "^1.0.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-papaparse": "^3.9.0",
+    "react-quill": "^1.2.3",
+    "react-sortable-hoc": "^0.6.8"
+  }
+}

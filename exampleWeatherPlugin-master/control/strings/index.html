@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="../../../../scripts/buildfire.min.js"></script>
+
+    <style>
+        .subTitle{
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        textarea:invalid,input:invalid{
+            background-color:lightpink;
+        }
+
+        .hidden{
+            display: none;
+        }
+
+        #deleteButton{
+            padding-right: 25px;
+            margin-top: 5px;
+        }
+    </style>
+
+
+    <!--
+        Add more string here
+        ../../widget/js/shared/stringsConfig.js  <=========================== README
+        this file is shared with the widget.
+    -->
+
+    <!-- build:bundleSharedJSFiles  -->
+    <script src="../../widget/js/shared/stringsConfig.js"></script>
+    <script src="../../widget/js/shared/strings.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:bundleJSFiles  -->
+    <script src="js/stringsUI.js"></script>
+    <!-- endbuild -->
+
+    <script src="../../../../scripts/tinymce/tinymce.min.js"></script>
+
+
+</head>
+<body>
+    <div id="stringsContainer">
+        loading...
+    </div>
+    <a id="saveButton" class="btn btn-success pull-right" onclick="save()">Save</a>
+
+    <script>
+		let strings;
+        tinymce.init({ selector: "textarea" });
+
+		function loadLanguage(lang){
+			strings = new buildfire.services.Strings(lang,stringsConfig);
+			strings.init().then(()=>{
+				showNewLanguageState( strings.id );
+				strings.inject();
+			});
+			stringsUI.init("stringsContainer",strings,stringsConfig);
+
+		}
+		loadLanguage("en-us");
+
+        function save(){
+
+			strings.save(()=>{
+				buildfire.messaging.sendMessageToWidget({cmd:"refresh"})
+            });
+        }
+
+    </script>
+
+
+</body>
+</html>

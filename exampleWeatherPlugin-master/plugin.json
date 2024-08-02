@@ -1,0 +1,38 @@
+{
+  "author": "BuildFire",
+  "pluginName": "Weather",
+  "pluginDescription": "Provides real-time weather updates",
+  "supportEmail": "support@buildfire.com",
+  "supportSite": "https://learn.buildfire.com/en/articles/4487613-weather-feature",
+  "control": {
+    "content": {
+      "enabled": true
+    },
+    "design": {
+      "enabled": true
+    },
+    "settings": {
+      "enabled": false
+    }
+  },
+  "widget": {},
+  "features": [
+    {
+      "name": "Geo"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "media": [
+    { "type": "image-resource", "path": "1-Plugin.png" },
+    { "type": "image-resource", "path": "2-Benefits.png" },
+    { "type": "image-resource", "path": "3-Use-Cases.png" },
+    { "type": "image-resource", "path": "4-Content-Tab.png" },
+    { "type": "image-resource", "path": "5-Analytics-Tab.png" },
+    {
+      "type": "youtube-video",
+      "path": "https://www.youtube.com/watch?v=JlPuISExciI"
+    }
+  ]
+}
