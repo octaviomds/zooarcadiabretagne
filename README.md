@@ -1,3 +1,29 @@
+### Download the latest SDK if you haven't already and run it
+
+```
+$ buildfire init
+$ cd Buildfire/SDK
+$ buildfire start
+```
+
+### Once inside the SDK's folder
+
+```
+$ buildfire plugin placesPlugin2
+$ cd plugins/placesPlugin2
+```
+
+### Run the plugin in development mode with
+
+```
+$ npm start
+```
+
+### Create a distributable plugin.zip with
+
+```
+$ npm run build
+```
 
 
 
