@@ -31,7 +31,12 @@ $ npm start
 
 ```
 $ npm run build
-```
+
+
+![Image 07-09-2024 à 19 25](https://github.com/user-attachments/assets/6f573687-c049-4801-b67e-2d7f5ec05758)
+
+
+
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 20 00" src="https://github.com/user-attachments/assets/24e01365-f632-4a80-bb1e-ff22f34d2178">
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 19 07" src="https://github.com/user-attachments/assets/ef4e1467-a5fa-4faf-a68f-dec45bf26e7e">
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 18 45" src="https://github.com/user-attachments/assets/a3fbb527-cd93-4975-bee9-2e2fe43ba20c">
