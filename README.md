@@ -1,3 +1,37 @@
+
+
+The Places plugin allows you to include a list and GPS map directory of categorized entries with pictures, contact information, instant directions, and even embed images.
+
+## Getting Started
+
+Be sure to have the latest BuildFire CLI installed in your system.
+
+### Download the latest SDK if you haven't already and run it
+
+```
+$ buildfire init
+$ cd Buildfire/SDK
+$ buildfire start
+```
+
+### Once inside the SDK's folder
+
+```
+$ buildfire plugin placesPlugin2
+$ cd plugins/placesPlugin2
+```
+
+### Run the plugin in development mode with
+
+```
+$ npm start
+```
+
+### Create a distributable plugin.zip with
+
+```
+$ npm run build
+```
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 20 00" src="https://github.com/user-attachments/assets/24e01365-f632-4a80-bb1e-ff22f34d2178">
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 19 07" src="https://github.com/user-attachments/assets/ef4e1467-a5fa-4faf-a68f-dec45bf26e7e">
 <img width="375" alt="Capture d’écran 2024-07-27 à 04 18 45" src="https://github.com/user-attachments/assets/a3fbb527-cd93-4975-bee9-2e2fe43ba20c">
