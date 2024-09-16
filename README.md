@@ -24,7 +24,11 @@ $ npm start
 ```
 $ npm run build
 ```
+FIREBASE
 
+SDK mobiles et Web
+Firebase prend en charge les SDK pour Android, IOS et Web. Combinés regles de Firebase et a Firebase auth les SDK mobiles et Web prennent en charge les architectures d'applications sans serveur dans lesquelles les clients se connectent directement à votre base de données Firebase. Avec une architecture sans serveur, vous n'avez pas besoin de maintenir un serveur intermédiaire entre vos clients et votre base de données Firebase.
+Les SDK mobiles et Web prennent également en charge les mise à jour en temps réel et la persistance des données hors ligne.
 
 
 
