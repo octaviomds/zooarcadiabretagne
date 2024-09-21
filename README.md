@@ -30,6 +30,52 @@ SDK mobiles et Web
 Firebase prend en charge les SDK pour Android, IOS et Web. Combinés regles de Firebase et a Firebase auth les SDK mobiles et Web prennent en charge les architectures d'applications sans serveur dans lesquelles les clients se connectent directement à votre base de données Firebase. Avec une architecture sans serveur, vous n'avez pas besoin de maintenir un serveur intermédiaire entre vos clients et votre base de données Firebase.
 Les SDK mobiles et Web prennent également en charge les mise à jour en temps réel et la persistance des données hors ligne.
 
+INTEGRATION FIREBASE:
+
+When adding a new web app to your firebase project you will get the firebaseConfig object and script tags needed for your integration to work. Copy these scripts and add them to your widget or control index.html
+
+Il s'agit de l'exemple de page html générée à partir de firebase.
+
+![Capture d’écran 2024-09-21 à 22 57 11](https://github.com/user-attachments/assets/74f6af2b-41d0-428b-a66b-c5e54351e645)
+
+
+
+Create a new service account on your project settings page. Go to Service accounts tab in your project ⚙ > Project Settings in top left part of side menu. Create a new Service Account and save the json file generated in a safe place. You will need this file later. You can follow official docs for this step too.
+
+Intégration de la base de données Firestore:
+
+Pour intégrer la base de données Firestore, suivez les étapes suivantes.
+
+Créez un nouveau magasin de données firebase. Allez dans la base de données Firestore sur votre projet et cliquez sur le bouton "Créer une base de données". Terminez la configuration sur le modal affiché.
+Ajoutez une nouvelle intégration sur le portail de dévi de buildfire.
+Ouvrez la page des intégrations sur le portail de dévi buildfire.
+Appuyez sur le bouton "Ajouter une nouvelle intégration".
+Sélectionnez Firestore comme fournisseur.
+Donnez un nom à votre intégration dans le champ Nom de l'intégration. Cela peut être n'importe quel nom personnalisé que vous voulez.
+Enter a Provider Database Name. For Firestore this value can be found in url or in your firestore page example-project-b39c5 in the screenshot below
+
+![Capture d’écran 2024-09-21 à 23 35 47](https://github.com/user-attachments/assets/46a5872c-5d35-490d-9f57-0fb362c2aa14)
+
+INTEGRATION BASE DE DONNÉES:
+
+Intégration de base de données en temps réel
+
+Pour intégrer la base de données en temps réel, suivez les étapes suivantes.
+
+Créez un nouveau magasin de données en temps réel. Allez à RealTime Database sur votre projet. Créez une base de données et terminez avec le reste des étapes de firebase.
+Ajoutez une nouvelle intégration sur le portail de dévi de buildfire.
+Ouvrez la page des intégrations sur le portail de dévil buildfire.
+Appuyez sur le bouton "Ajouter une nouvelle intégration".
+Sélectionnez Firebase Real Time comme fournisseur
+Donnez un nom à votre intégration dans le champ Nom de l'intégration. Cela peut être n'importe quel nom personnalisé que vous voulez.
+Saisissez un nom de base de données du fournisseur. Il s'agit généralement de votre identifiant de projet et de votre cabine se trouve dans l'URL après/project/
+Enter a Database Url. You can copy this from firebase realtime database dashobard. It looks something similar to this https://example-project-b39c5-default-rtdb.firebaseio.com/;
+Si vous voulez utiliser cette intégration sur le testeur de plugin sur votre localhost. Assurez-vous de cocher la case "Mode développement"
+Téléchargez le fichier de compte de service Firebase que vous avez téléchargé précédemment lors de la création d'un compte de service
+Votre intégration devrait être prête maintenant et votre jeton d'intégration est visible sur la page des intégrations ;
+
+
+
 
 
 LIEN :https://www.figma.com/@leomartin
