@@ -69,7 +69,7 @@ Appuyez sur le bouton "Ajouter une nouvelle intégration".
 Sélectionnez Firebase Real Time comme fournisseur
 Donnez un nom à votre intégration dans le champ Nom de l'intégration. Cela peut être n'importe quel nom personnalisé que vous voulez.
 Saisissez un nom de base de données du fournisseur. Il s'agit généralement de votre identifiant de projet et de votre cabine se trouve dans l'URL après/project/
-Enter a Database Url. You can copy this from firebase realtime database dashobard. It looks something similar to this https://example-project-b39c5-default-rtdb.firebaseio.com/;
+Enter a Database Url. You can copy this from firebase realtime database dashobard.
 Si vous voulez utiliser cette intégration sur le testeur de plugin sur votre localhost. Assurez-vous de cocher la case "Mode développement"
 Téléchargez le fichier de compte de service Firebase que vous avez téléchargé précédemment lors de la création d'un compte de service
 Votre intégration devrait être prête maintenant et votre jeton d'intégration est visible sur la page des intégrations ;
