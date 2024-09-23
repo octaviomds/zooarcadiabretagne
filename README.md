@@ -74,8 +74,8 @@ Si vous voulez utiliser cette intégration sur le testeur de plugin sur votre lo
 Téléchargez le fichier de compte de service Firebase que vous avez téléchargé précédemment lors de la création d'un compte de service
 Votre intégration devrait être prête maintenant et votre jeton d'intégration est visible sur la page des intégrations ;
 
-
-
+UTILASTION DE TRELLO:
+https://trello.com/home
 
 
 LIEN :https://www.figma.com/@leomartin
