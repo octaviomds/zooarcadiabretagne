@@ -1,30 +1,4 @@
-### Download the latest SDK if you haven't already and run it
 
-```
-$ buildfire init
-$ cd Buildfire/SDK
-$ buildfire start
-```
-
-### Once inside the SDK's folder
-
-```
-$ buildfire plugin placesPlugin2
-$ cd plugins/placesPlugin2
-```
-
-### Run the plugin in development mode with
-
-```
-$ npm start
-```
-
-### Create a distributable plugin.zip with
-
-```
-$ npm run build
-
-```
 
 
 
@@ -91,7 +65,7 @@ Si vous voulez utiliser cette intégration sur le testeur de plugin sur votre lo
 Téléchargez le fichier de compte de service Firebase que vous avez téléchargé précédemment lors de la création d'un compte de service
 Votre intégration devrait être prête maintenant et votre jeton d'intégration est visible sur la page des intégrations ;
 
-UTILASTION DE TRELLO:
+UTILISATION DE TRELLO:
 https://trello.com/home
 
 
