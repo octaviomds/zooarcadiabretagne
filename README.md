@@ -28,6 +28,7 @@ $ npm run build
 
 
 
+<img width="754" alt="Capture d’écran 2024-09-24 à 02 03 13" src="https://github.com/user-attachments/assets/638f3c44-ee02-437f-a833-edb20de967e9">
 
 
 
