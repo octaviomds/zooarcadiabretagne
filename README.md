@@ -46,7 +46,7 @@ Sélectionnez Firestore comme fournisseur.
 Donnez un nom à votre intégration dans le champ Nom de l'intégration. Cela peut être n'importe quel nom personnalisé que vous voulez.
 Enter a Provider Database Name. For Firestore this value can be found in url or in your firestore page example-project-b39c5 in the screenshot below
 
-![Capture d’écran 2024-09-21 à 23 35 47](https://github.com/user-attachments/assets/46a5872c-5d35-490d-9f57-0fb362c2aa14)
+
 
 INTEGRATION BASE DE DONNÉES:
 
