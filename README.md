@@ -89,6 +89,6 @@ LIEN :https://www.figma.com/@leomartin
 <img width="385" alt="Capture d’écran 2024-07-26 à 20 23 55" src="https://github.com/user-attachments/assets/c551c2a9-50f0-48b7-9be3-ae7165e9d1bd">
                                            
 
-![image](https://github.com/user-attachments/assets/728eb030-8965-4404-a47c-d4cf0db61d62)
+
 
 
