@@ -88,8 +88,13 @@ LIEN :https://www.figma.com/@leomartin
 
 <img width="385" alt="Capture d’écran 2024-07-26 à 20 23 55" src="https://github.com/user-attachments/assets/c551c2a9-50f0-48b7-9be3-ae7165e9d1bd">
                                            
-
+EXEMPLE:
 
 ![Image 03-10-2024 à 06 16](https://github.com/user-attachments/assets/e80c92db-7b76-48d3-9ed8-ce140bd7f830)
+
+
+![Capture d’écran 2024-10-04 à 16 21 20](https://github.com/user-attachments/assets/1dc0b7ee-ea5c-487a-aa41-2b09a40a8766)
+
+
 
 
